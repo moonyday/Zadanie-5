@@ -1,0 +1,361 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.625em;
+}
+
+
+.top p, .work p, .cytat p, .in_touch p, .six_box h3 {
+	font-size: 2.4em;
+}
+h1 {
+	font-size: 3.6em;
+}
+a, h3, blockquote, .cytat p, .kontakt p, .services .contentarea > p {
+	font-size: 1.8em;
+}
+h2 {
+	font-size: 3em;
+}
+.flex p, .six_box p, footer p, li a {
+	font-size: 1.4em;
+}
+.flex a {
+	font-size: 1.1em;
+}
+.work h2, .in_touch h2 {
+	font-size: 4.8em;
+}
+
+.contentarea {
+	margin: 0 auto;
+	width: 80%;
+}
+ul li {
+	float: right;
+	padding-left: 55px;
+}
+nav {
+	display: inline-block;
+	margin: 35px 0px;
+	float: right;
+}
+ul {
+	list-style: none;
+}
+ul li a {
+	display: block;
+	color: #fff;
+}
+header img {
+	margin: 35px 0px;
+}
+header {
+	background-color: #0d0b11;
+}
+ul li a:hover {
+	color: #ea5b58;
+}
+h1 {
+	padding-top: 110px;
+	color: #fff;
+}
+.top p {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	color: #fff;
+}
+.top a {
+	display: inline-block;
+	margin-bottom: 130px;
+	height: 50px;
+	width: 140px;
+	border-radius: 10px;
+	background-color: #ea5b58;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.top {
+	background-color: #161828;
+}
+.services h2 {
+	padding-top: 70px;
+	text-align: center;
+}
+.services .contentarea > p {
+	padding: 20px 0px;
+	text-align: center;
+}
+.flex {
+	display: flex;
+}
+.flex div {
+	text-align: center; 
+}
+.services {
+	background-color: #475a85;
+	color: #fff;
+}
+.services .kolko {
+	background-color: #fff;
+}
+.services a {
+	display: inline-block;
+	height: 30px;
+	width: 85px;
+	border-radius: 5px;
+	background-color: #ea5b58;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+.flex p {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.flex h3 {
+	padding-top: 30px;
+}
+.flex {
+	padding: 95px 0px 100px 0px;
+}
+.flex div {
+	margin-right: 5%;
+
+}
+.flex div:last-child {
+	margin-right: 0;
+}
+.line {
+	height: 0px;
+	width: 250px;
+	border-bottom: 1px solid #fff;
+	padding-top: 10px; 
+	display: inline-block;
+	margin-bottom: 3px;
+}
+.work h2 {
+	padding-top: 190px;
+	text-align: center;
+}
+.work p {
+	padding: 20px 0px 150px 0px;
+	text-align: center;
+}
+.work {
+	color: #fff;
+	background-image: url("tlo.jpg");
+	background-repeat: repeat;
+}
+.six_box h2 {
+	padding-top: 90px;
+	text-align: center;
+}
+.six_box p {
+	padding: 10px 0px;
+	text-align: center;
+}
+.six_box .line {
+	border-bottom: 1px solid #323232;
+	margin-bottom: 3px;
+}
+.kolko {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #323232;
+	display: inline-block;
+}
+.kreskowy {
+	text-align: center;
+}
+ .linki {
+ 	text-align: center;
+ 	margin-top: 80px;
+ }
+ .linki a {
+ 	color: #a7a7a7;
+ 	font-size: 1.5em;
+ }
+ .linki span {
+ 	color: #323232;
+ }
+.po_trzy, .second_row {
+	display: flex;
+	justify-content: space-between;
+}
+.po_trzy div, .second_row div {
+	background-color: #7b7b7b;
+	width: 370px;
+	height: 200px;
+	margin-right: 2%;
+	padding: 50px;
+}
+.po_trzy div:last-child, .second_row div:last-child {
+	margin-right: 0;
+}
+.po_trzy {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.po_trzy div:first-child {
+	background-color: #506083;
+	color: #fff;
+	text-align: center;
+}
+.po_trzy img {
+	padding-top: 20px;
+}
+.strzalkowy {
+	text-align: center;
+	font-weight: 700;
+	margin-top: 50px;	
+}
+.cytat h2 {
+	padding-top: 100px;
+	text-align: center;
+}
+.cytatowy {
+	text-align: center;
+	padding: 20px 0px;
+}
+.cytat .line {
+	border-bottom: 1px solid #323232;
+}
+blockquote {
+	padding-bottom: 30px;
+	padding-top: 120px;
+
+}
+.circle {
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	background-color: #7b7b7b;
+	float: left;
+	margin-top: 50px;
+	margin-right: 100px;
+	border: 5px solid #ebebeb;
+}
+.john {
+	font-weight: 700;
+	margin-bottom: 130px;
+}
+.paginacja {
+	margin-bottom: 80px;
+	text-align: center;
+}
+.in_touch h2 {
+	padding-top: 160px;
+	text-align: center;
+	color: #fff;
+}
+.in_touch p {
+	padding-top: 30px;
+	padding-bottom: 160px;
+	text-align: center;
+	color: #fff;
+}
+.in_touch {
+	background-image: url("tlo.jpg");
+	background-repeat: repeat;
+}
+.kontakt h2 {
+	padding-top: 90px;
+	text-align: center;
+}
+.kontakt .contentarea > p {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+.kontakt {
+	background-color: #475a85;
+	color: #fff;
+}
+.kontakt .kolko {
+	background-color: #fff;
+}
+.kontener {
+	display: flex;
+}
+.kontener div {
+	width: 47%;
+}
+.dane {
+	margin-right: 6%;
+}
+.dane h3 {
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+.dane p {
+	padding-bottom: 30px;
+	font-size: 1.5em;
+}
+.dane div img {
+	margin-right: 10px;
+}
+.dane p img {
+	margin-right: 10px;
+}
+form {
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+.name, .email {
+	height: 50px;
+	width: 46%;
+	float: left;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	line-height: 50px;
+	padding-left: 3%;
+}
+.message {
+	width: 97%;
+	height: 160px;
+	border-radius: 10px;
+	padding-left: 3%;
+}
+.submit {
+	height: 50px;
+	width: 140px;
+	border-radius: 10px;
+	background-color: #ea5b58;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.name {
+	margin-right: 2%;
+}
+footer {
+	background-color: #161828;
+	text-align: center;
+	color: #76777f;
+}
+footer p {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+footer h2 {
+	padding-bottom: 50px;
+	font-weight: 400;
+}
+footer span {
+	font-weight: 700;
+}
