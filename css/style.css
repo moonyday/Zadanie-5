@@ -14,13 +14,13 @@ body {
 }
 
 
-.top p, .work p, .cytat p, .in_touch p, .six_box h3 {
+.top p, .work-section p, .testimonials-section p, .in_touch p, .six_box h3 {
 	font-size: 2.4em;
 }
 h1 {
 	font-size: 3.6em;
 }
-a, h3, blockquote, .cytat p, .kontakt p, .services .contentarea > p {
+a, h3, blockquote, .testimonials-section p, .contact-section p, .services-section .contentarea > p {
 	font-size: 1.8em;
 }
 h2 {
@@ -32,13 +32,14 @@ h2 {
 .flex a {
 	font-size: 1.1em;
 }
-.work h2, .in_touch h2 {
+.work-section h2, .in_touch h2 {
 	font-size: 4.8em;
 }
 
 .contentarea {
 	margin: 0 auto;
-	width: 80%;
+	max-width: 1125px;
+	padding: 0 15px;
 }
 ul li {
 	float: right;
@@ -56,16 +57,26 @@ ul li a {
 	display: block;
 	color: #fff;
 }
-header img {
-	margin: 35px 0px;
-}
 header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 	background-color: #0d0b11;
 }
+header h1 {
+	margin: 20px 0px;
+	display: inline-block;
+	color: #fff;
+}
+header h1 span {
+	font-weight: 400;
+}
+
 ul li a:hover {
 	color: #ea5b58;
 }
-h1 {
+.top h1 {
 	padding-top: 110px;
 	color: #fff;
 }
@@ -77,22 +88,23 @@ h1 {
 .top a {
 	display: inline-block;
 	margin-bottom: 130px;
-	height: 50px;
-	width: 140px;
-	border-radius: 10px;
+	height: 40px;
+	width: 120px;
+	border-radius: 15px;
 	background-color: #ea5b58;
 	color: #fff;
 	text-align: center;
-	line-height: 50px;
+	line-height: 40px;
 }
 .top {
 	background-color: #161828;
+	padding-top: 50px;
 }
-.services h2 {
+.services-section h2 {
 	padding-top: 70px;
 	text-align: center;
 }
-.services .contentarea > p {
+.services-section .contentarea > p {
 	padding: 20px 0px;
 	text-align: center;
 }
@@ -102,14 +114,14 @@ h1 {
 .flex div {
 	text-align: center; 
 }
-.services {
+.services-section {
 	background-color: #475a85;
 	color: #fff;
 }
-.services .kolko {
+.services-section .kolko {
 	background-color: #fff;
 }
-.services a {
+.services-section a {
 	display: inline-block;
 	height: 30px;
 	width: 85px;
@@ -144,17 +156,17 @@ h1 {
 	display: inline-block;
 	margin-bottom: 3px;
 }
-.work h2 {
+.work-section h2 {
 	padding-top: 190px;
 	text-align: center;
 }
-.work p {
+.work-section p {
 	padding: 20px 0px 150px 0px;
 	text-align: center;
 }
-.work {
+.work-section {
 	color: #fff;
-	background-image: url("tlo.jpg");
+	background-image: url("../gfx/tlo.jpg");
 	background-repeat: repeat;
 }
 .six_box h2 {
@@ -221,7 +233,7 @@ h1 {
 	font-weight: 700;
 	margin-top: 50px;	
 }
-.cytat h2 {
+.testimonials-section h2 {
 	padding-top: 100px;
 	text-align: center;
 }
@@ -229,7 +241,7 @@ h1 {
 	text-align: center;
 	padding: 20px 0px;
 }
-.cytat .line {
+.testimonials-section .line {
 	border-bottom: 1px solid #323232;
 }
 blockquote {
@@ -253,8 +265,19 @@ blockquote {
 	margin-bottom: 130px;
 }
 .paginacja {
-	margin-bottom: 80px;
+	margin: 80px auto;
+	display: flex;
+	width: 25%;
 	text-align: center;
+
+}
+.paginacja div {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #7b7b7b;
+	text-align: center;
+	margin: 0 auto;
 }
 .in_touch h2 {
 	padding-top: 160px;
@@ -268,23 +291,23 @@ blockquote {
 	color: #fff;
 }
 .in_touch {
-	background-image: url("tlo.jpg");
+	background-image: url("../gfx/tlo.jpg");
 	background-repeat: repeat;
 }
-.kontakt h2 {
+.contact-section h2 {
 	padding-top: 90px;
 	text-align: center;
 }
-.kontakt .contentarea > p {
+.contact-section .contentarea > p {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 25px;
 }
-.kontakt {
+.contact-section {
 	background-color: #475a85;
 	color: #fff;
 }
-.kontakt .kolko {
+.contact-section .kolko {
 	background-color: #fff;
 }
 .kontener {
@@ -304,12 +327,22 @@ blockquote {
 	padding-bottom: 30px;
 	font-size: 1.5em;
 }
-.dane div img {
+.dane p span {
 	margin-right: 10px;
 }
-.dane p img {
+
+.dane div a {
 	margin-right: 10px;
+	background: #161828;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 5%;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	color: #fff;
 }
+
 form {
 	padding-top: 60px;
 	padding-bottom: 90px;
@@ -358,4 +391,9 @@ footer h2 {
 }
 footer span {
 	font-weight: 700;
+}
+
+
+.bg-change {
+	opacity: 0.8;
 }

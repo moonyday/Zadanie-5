@@ -2,22 +2,23 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="website webdev challenge">
-    <title>newest project</title>
+    <meta name="description" content="webdev challenge">
+    <title>Zadanie 5</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">   
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-	<header>
+	<header id="header">
 		<div class="contentarea">
-			<img src="gfx/images/5_03.jpg" alt="logo">
+			<h1>Macan<span>kumbang</span></h1>
 			<nav>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Testimonials</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#" id="home">Home</a></li>
+					<li><a href="#" class="services">Services</a></li>
+					<li><a href="#" class="work">Work</a></li>
+					<li><a href="#" class="testimonials">Testimonials</a></li>
+					<li><a href="#" class="contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -31,21 +32,21 @@
 		</div>
 	</section>
 	
-	<section class="services">
+	<section class="services-section">
 		<div class="contentarea">
 			<h2>Our Services</h2>
 			<p>our awesome services</p>
 			<div class="kreskowy"><div class="kolko"></div><div class="line"></div><div class="kolko"></div></div>
 			<div class="flex">
-				<div><img src="gfx/images/5_10.jpg" alt="heart" height="30px"><h3>Beautiful Design</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
-				<div><img src="gfx/images/5_07.jpg" alt="globe" height="30px"><h3>Global Trend</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
-				<div><img src="gfx/images/5_13.jpg" alt="screen" height="30px"><h3>Responsive</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
-				<div><img src="gfx/images/5_15.jpg" alt="rocket" height="30px"><h3>Awesome Design</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
+				<div><i class="fas fa-heart fa-3x"></i><h3>Beautiful Design</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
+				<div><i class="fas fa-globe fa-3x"></i><h3>Global Trend</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
+				<div><i class="fas fa-desktop fa-3x"></i><h3>Responsive</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
+				<div><i class="fas fa-rocket fa-3x"></i><h3>Awesome Design</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p><a href="#">More</a></div>
 			</div>
 		</div>
 	</section>
 	
-	<section class="work">
+	<section class="work-section">
 		<div class="contentarea">
 			<h2>Our Greatest Works</h2>
 			<p>come from awesome imagination</p>
@@ -59,7 +60,7 @@
 			<div class="kreskowy"><div class="kolko"></div><div class="line"></div><div class="kolko"></div></div>
 			<div class="linki"><a href="#"><span>All&nbsp/</span></a><a href="#">&nbspWeb&nbsp<span>/</span></a><a href="#">&nbspPrint</a></div>
 			<div class="po_trzy">
-				<div><h3>Macancumbang</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis</p><img src="gfx/images/5_22.jpg" alt="eye"></div>
+				<div><h3>Macancumbang</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis</p><i class="fas fa-eye fa-3x"></i></div>
 				<div></div>
 				<div></div>
 			</div>
@@ -70,12 +71,12 @@
 			</div>
 			<div class="strzalkowy">
 				<p>Browse All<br>300+</p>
-				<img src="gfx/images/5_26.jpg" alt="strzałka">
+				<i class="fas fa-angle-double-down fa-3x"></i>
 			</div>	
 		</div>
 	</section>
 
-	<section class="cytat">
+	<section class="testimonials-section">
 		<div class="contentarea">
 			<h2>What Our Happy Customers Say</h2>
 			<p class="cytatowy">lorem ipsum dolor sit amet</p>
@@ -83,7 +84,12 @@
 			<div class="circle"></div>
 			<blockquote>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </blockquote>
 			<p class="john">John Doe</p>
-			<div class="paginacja"><img src="gfx/images/5_30.jpg" alt="paginacja"></div>	
+			<div class="paginacja">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>	
 		</div>
 	</section>
 
@@ -98,7 +104,7 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2553.313902656844!2d-5.483906784819567!3d50.211354312445884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486add5baa2dba8d%3A0xa02a36aff92ff2fb!2sChapel+St%2C+Saint+Ives+TR26+2LR%2C+Wielka+Brytania!5e0!3m2!1spl!2spl!4v1505645801766" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
 
-	<section class="kontakt">
+	<section class="contact-section">
 		<div class="contentarea">
 			<h2>Contact</h2>
 			<p>Let's talk business, get in touch!</p>
@@ -107,10 +113,15 @@
 				<div class="dane">
 					<h3>Office Hours</h3>
 					<p>Monday to Friday / 7:00 - 18:00 Saturday / 9:00 - 15:00</p>
-					<p><img src="gfx/images/5_41.jpg" alt="pin"> 25 Silver Coast Avenue, MD 20910 Indonesia</p>
-					<p><img src="gfx/images/5_44.jpg" alt="phone">(621) 555 6789</p>
-					<p><img src="gfx/images/5_48.jpg" alt="envelope">hello@macankumbang.net</p>
-					<div><a href="#"><img src="gfx/images/5_55.jpg" alt="twitter"></a><a href="#"><img src="gfx/images/5_57.jpg" alt="facebook"></a><a href="#"><img src="gfx/images/5_60.jpg" alt="google plus"></a></div>
+					<p><span><i class="fas fa-map-marker"></i></span> 25 Silver Coast Avenue, MD 20910 Indonesia</p>
+					<p><span><i class="fas fa-phone"></i></span> (621) 555 6789</p>
+					<p><span><i class="fas fa-envelope"></i></span>hello@macankumbang.net</p>
+					<div>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-google-plus-g"></i></a
+						>
+					</div>
 				</div>
 				<div class="formularz">
 					<form>
@@ -126,9 +137,11 @@
 
 	<footer>
 		<div class="contentarea">
-			<p>(c) copyright 2013 macankumbang</p>
+			<p><i class="far fa-copyright"></i> copyright 2013 macankumbang</p>
 			<h2><span>Macan</span>kumbang</h2>
 		</div>
 	</footer>
+<script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="scripts/script.js" ></script>
 </body>
 </html>
